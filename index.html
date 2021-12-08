@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="PT-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pethome</title>
+    <link rel="shortcut icon" href="IMG/casinha-ico.ico" type="image/x-icon">
+    <link rel="stylesheet" href="CSS/site.css">
+</head>
+
+<body>
+    <header>
+        <h1 title="Pethome">
+            <img src="IMG/casinha-logo.png" alt="Logo Pethome">
+        </h1>
+    </header>
+
+    <nav class="menu">
+        <ul>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#Produtos">Produtos</a></li>
+            <li><a href="#Serviços">Serviços</a></li>
+            <li id="itemcontato"><a href="#Contato">Contato</a>
+            </li>
+        </ul>
+    </nav>
+    <article class="fundo-azul">
+
+        <div class="conteiner flex-conteiner" id="sobre">
+            <div class="col">
+                <h2>Sobre nós</h2>
+                <p>
+
+                    Nossa missão é muito mais que ser simplesmente um negócio pet . Nosso objetivo maior, é encantar os
+                    tutores e seus filhos de patas com uma experiência emocional positiva…Ajudar “pais e mães” de pets a
+                    melhorarem a saúde e qualidade de vida de seus peludos.
+                    Oferecer produtos e serviços que contribuem para cuidar da saúde do animal, fazendo da visita ao
+                    petshop um passeio agradavel, com troca de experiências entre apaixonados por animais.
+                </p>
+            </div>
+            <div class="col">
+                <img src="IMG/img-sobre.jpg" alt="Sobre">
+            </div>
+        </div>
+    </article>
+
+    <article>
+
+        <div class="conteiner" id="Produtos">
+            <h2 class="texto-centralizado">Produtos</h2>
+            <p class="texto-centralizado"> Todos os tipos de Produtos para cães e gatos, Confira abaixo nossos produtos.
+                temos rações, casinhas, shampoos e muito mais!
+
+            </p>
+
+            <div class="flex-conteiner">
+
+                <article class="produto">
+                    <figure>
+                        <img src="IMG/produto-1.jpg" alt="Ração para cachorro">
+                    </figure>
+                    <h3> Ração para cachorro</h3>
+                    <p>R$ 150,00</p>
+                    <a href="#" class="btn-patinha">
+                        <img src="IMG/patinha-preta.png" alt="patinha-preta">
+                        Comprar
+                    </a>
+
+
+                </article>
+
+                <article class="produto">
+                    <figure>
+                        <img src="IMG/produto-2.jpg" alt="Casinha para Cachorro">
+                    </figure>
+                    <h3>Casinha para Cachorro</h3>
+                    <p>R$ 160,00</p>
+                    <a href="#" class="btn-patinha">
+                        <img src="IMG/patinha-preta.png" alt="patinha-preta">
+                        Comprar
+                    </a>
+
+
+                </article>
+
+                <article class="produto">
+                    <figure>
+                        <img src="IMG/produto-3.jpg" alt="Arranhadores para gatos">
+                    </figure>
+                    <h3> Arranhadores para gatos</h3>
+                    <p>R$ 170,00</p>
+                    <a href="#" class="btn-patinha">
+                        <img src="IMG/patinha-preta.png" alt="patinha-preta">
+                        Comprar
+                    </a>
+                </article>
+            </div>
+        </div>
+
+    </article>
+    <article class="fundo-azul">
+        <div class="conteiner flex-conteiner" id="Serviços">
+            <div class="col">
+                <h2>Serviços</h2>
+                <p>
+                    Temos serviços de adestramento de cães, banho, tosa e muito mais venha conferir!
+                    o Pethome é o shopping do seu animal.
+                </p>
+                <p>
+                    traga seu cão para que possamos ensina-lo a como ser um cão diferenciado,
+                    que se destaca dentre os demais.
+                </p>
+            </div>
+            <div class="tamanho">
+                <img src="IMG/img-galeria-1.jpg" alt="Sobre">
+                <img src="IMG/img-galeria-2.jpg" alt="Sobre">
+                <img src="IMG/img-galeria-3.jpg" alt="Sobre">
+                <img src="IMG/img-galeria-4.jpg" alt="Sobre">
+            </div>
+        </div>
+    </article>
+
+
+    <article>
+        <div class="conteiner">
+            <div class="texto-centralizado" id="Contato">
+                <h2>Contato</h2>
+                <p class="texto-centralizado">
+                    Entre em contato conosco através do formulario abaixo, ou venha nos fazer uma visita.
+                </p>
+
+                </p>
+            </div>
+            <div class="conteiner flex-conteiner">
+                <div class="col">
+                    <form action="">
+                        <label for="nome">
+                            <strong>Nome:</strong>
+                            <input type="text" id="nome" placeholder="insira o seu nome completo">
+                        </label>
+
+                        <label for="email">
+                            <strong>Email:</strong>
+                            <input type="email" id="email" placeholder="exemplo@teste.com.br">
+                        </label>
+
+                        <label for="fone">
+                            <strong>Telefone:</strong>
+                            <input type="tel" id="tel" placeholder="(11)0000-0000 ou (11)90000-0000">
+                        </label>
+                        <label for="assunto">
+                            <strong>Assunto</strong>
+                            <input type="text" placeholder="insira aqui o assunto da sua mensagem" id="assunto">
+                        </label>
+                        <label for="msg">
+                            <strong>Mensagem:</strong>
+                            <textarea name="msg" id="msg" cols="30" rows="10"
+                                placeholder="Insira aqui sua mensagem"></textarea>
+                        </label>
+
+                        <div>
+                            <button class="btn-patinha">
+                                <img src="IMG/patinha-preta.png" alt="patinha preta">
+                                Enviar
+                            </button>
+                        </div>
+                    </form>
+
+                </div>
+                <div class="col">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3653.399970389819!2d-46.76853948486827!3d-23.697406772515805!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5212f9627de5%3A0x1c5ccd29c1a3e96a!2sEtec%20Jardim%20%C3%82ngela!5e0!3m2!1spt-BR!2sbr!4v1637630753660!5m2!1spt-BR!2sbr"
+                        width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    <address>
+                        Endereço: Estr. da Baronesa, 1695 - Jardim Angela, São Paulo / SP <br>
+
+                        <strong>Cep:</strong> 04941-175
+                        <strong>tel: (11) 5555-7777</strong>
+                    </address>
+
+
+                </div>
+
+            </div>
+
+        </div>
+    </article>
+    <footer>
+        <div class="conteiner texto-centralizado">
+            <p>Copyright &copy; 2021 <strong>Pethome | Todos os Direitos Reservados</strong></p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
